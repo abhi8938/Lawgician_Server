@@ -1,0 +1,37 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --varbose",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.1.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "debug": "^4.1.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^3.18.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.4",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^3.3.0"
+  }
+}
